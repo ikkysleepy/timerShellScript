@@ -1,0 +1,17 @@
+{
+	"pluginName": "TimerShellScript",
+	"pluginDescription": "45 Min Break Timer",
+	"pluginReadMore": "Alerts you to take a break every 45 minutes",
+	"protocolVersion": 1,
+	"actions":
+	[
+		{
+			"actionName": "Timer Shell Script",
+			"fileName": "timer.sh"
+		},
+		{
+			"actionName": "Timer Shell Script kill",
+			"fileName": "kill.sh"
+		}
+	]
+}
